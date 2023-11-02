@@ -11,7 +11,7 @@ N = '\x1b[0m'
 import os
 try:
 	import requests
-except ImportError:
+except ImportErro:
 	os.system("pip install requests")
  
 try:
